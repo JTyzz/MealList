@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_ingredient_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ingredient_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/ingredient_query"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/ingredient_items"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ingredient_title"
+                android:hint="@string/hint_ingredient"/>
+
+            <Button
+                android:id="@+id/query_button"
+                android:layout_below="@id/ingredient_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/query"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

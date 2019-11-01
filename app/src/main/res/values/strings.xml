@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MealList</string>
+    <string name="action_settings">Settings</string>
+    <string name="food_item">Add a new dish</string>
+    <string name="hint_food">Enter food</string>
+    <string name="save">save</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="dish_ingredients">Enter ingredients</string>
+    <string name="ingredient_query">Enter ingredient</string>
+    <string name="hint_ingredient">Enter ingredients</string>
+    <string name="query">Check food list</string>
+    <string name="title_activity_ingredient">Ingredient</string>
+</resources>
